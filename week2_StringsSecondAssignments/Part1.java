@@ -52,7 +52,7 @@ public class Part1 {
             if(currGene.isEmpty()){
                break;
             }
-            //System.out.println(currGene);
+            System.out.println(currGene);
             startIndex = dna.indexOf(currGene, startIndex) + currGene.length();
             System.out.println(startIndex);
             count ++;
